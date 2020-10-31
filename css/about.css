@@ -180,6 +180,7 @@ body {
         align-items: center;
         text-align: center;
         position: static;
+        width: 100%;
     }
     .pic-container {
         margin-left: 0rem;

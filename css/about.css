@@ -76,7 +76,7 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -180,7 +180,6 @@ body {
         align-items: center;
         text-align: center;
         position: static;
-        width: 100%;
     }
     .pic-container {
         margin-left: 0rem;

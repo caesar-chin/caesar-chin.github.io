@@ -14,12 +14,3 @@ function carousel() {
     setTimeout(carousel, 5000); // Change image every 5 seconds
 };
 
-function imagesize(){
-    var size;
-    size = screen.width;
-    document.getElementById("homepic").style = "max-width: " + size + ";";
-    document.getElementById("homepic").style = "min-width: " + size + ";";
-    document.getElementById("aboutme").style = "font-size: 600px;";
-    console.log("nothing to see here!");
-    console.log(size);
-};

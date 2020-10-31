@@ -1,8 +1,8 @@
 var slideIndex = 0;
 carousel();
-imagesize();
 
 function carousel() {
+    console.log("nothing to see here!")
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {

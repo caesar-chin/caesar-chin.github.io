@@ -68,7 +68,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-right: .5rem;
-    margin-left: 5.5rem;
+    margin-left: 6.5rem;
 }
 
 #homepic {
@@ -77,6 +77,7 @@ body {
     align-items: center;
     position: relative;
     height: auto;
+    width: 100vw
 }
 
 .mySlides {
@@ -120,6 +121,10 @@ body {
 /*picture move to the right*/
 
 @media only screen and (max-width: 1200px) {
+    .pic-container{
+        margin-left: 6.5rem;
+        margin-right: 0.5rem;
+    }
     #aboutme {
         justify-content: left;
         max-width: 1000px;
@@ -181,9 +186,8 @@ body {
         position: static;
     }
     .pic-container {
-        margin-left: 0rem;
-        margin-left: .5rem;
         max-width: 768px;
+        margin-left: .5rem;
     }
     .aboutcontainer {
         margin: 0;

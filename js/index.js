@@ -19,5 +19,5 @@ function imagesize(){
     size = screen.width;
     document.getElementById("homepic").style = "max-width: " + size;
     document.getElementById("homepic").style = "min-width: " + size;
-    console.log("hello!")
+    console.log("nothing to see here")
 }

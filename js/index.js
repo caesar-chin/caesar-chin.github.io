@@ -20,6 +20,6 @@ function imagesize(){
     document.getElementById("homepic").style = "max-width: " + size + ";";
     document.getElementById("homepic").style = "min-width: " + size + ";";
     document.getElementById("aboutme").style = "font-size: 600px;";
-    console.log("nothing to see here");
+    console.log("nothing to see here!");
     console.log("size");
 };

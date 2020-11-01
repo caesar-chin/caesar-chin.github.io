@@ -183,9 +183,9 @@ body {
         align-items: center;
         text-align: center;
         position: static;
+        max-width: 350px;
     }
     .pic-container {
-        max-width: 768px;
         margin-left: .5rem;
     }
     .aboutcontainer {

@@ -49,10 +49,18 @@ body {
     animation-name: fadeInUp;
     animation-fill-mode: both;
     animation-duration: .8s;
-    animation-delay: 1s;
+    animation-delay: 1.25s;
     padding-top: 10px;
     border: 20px;
 }
+
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+
 
 .aboutcontainer {
     justify-content: center;
@@ -60,7 +68,7 @@ body {
     margin-right: 10rem;
     margin-left: 6rem;
     width: 100%;
-    height: 40vw;
+    height: 42vw;
 }
 
 .pic-container {
@@ -85,9 +93,9 @@ body {
 
 .fade {
     -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
+    -webkit-animation-duration: 5s;
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 5s;
 }
 
 .intro {
@@ -116,6 +124,17 @@ body {
     }
 }
 
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
 
 /*picture move to the right*/
 

@@ -104,13 +104,13 @@ body {
     font-size: 1.75vw;
 }
 
-.footer{
+footer{
     padding-top: 3rem;
     padding-bottom: 1rem;
     display: flex;
 }
 
-.footer a{
+footer a{
     color: inherit;
     font-size: 1.15rem;
     text-align: center;

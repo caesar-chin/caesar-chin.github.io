@@ -110,7 +110,7 @@ body {
     display: flex;
 }
 
-#link{
+.footer a{
     color: inherit;
     font-size: 1.15rem;
     text-align: center;

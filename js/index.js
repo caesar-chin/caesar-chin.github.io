@@ -14,4 +14,4 @@ function carousel() {
     setTimeout(carousel,3500); // Change image every 5 seconds
 };
 
-console.log("Nothing to see here!")
+console.log("Nothing to see here! this is a test")

@@ -15,7 +15,7 @@
 .basic-grid {
     display: grid;
     gap: 2.5rem;
-    grid-template-columns: repeat(2, minmax(325px, 500.5px));
+    grid-template-columns: repeat(2, minmax(325px, 550px));
     justify-items: center;
     justify-content: center;
     
@@ -86,17 +86,17 @@
     margin-bottom: .5rem;
 }
 
-.ppc{
-    max-width: 100%;
-}
-
-
 .recentproject {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     position: relative;
+}
+
+.ppc{
+    height:auto;
+    width: auto;
 }
 
 @media only screen and (max-width: 800px) {

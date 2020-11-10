@@ -104,6 +104,10 @@ body {
     font-size: 1.75vw;
 }
 
+footer{
+    height: 6rem;
+}
+
 @-webkit-keyframes fade {
     from {
         opacity: .4
